@@ -1,4 +1,4 @@
-New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation
+
 * {
   padding: 0;
   margin: 0;
@@ -150,7 +150,7 @@ button a {
 .left-footer {
   position: relative;
   /* flex: 1; */
-  background: url(images/bg.jpg);
+  background: url(image/image.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,9 +166,10 @@ button a {
 
 .content-left-footer {
   z-index: 10;
-  display: flex;
+  display: contents;
   padding: 100px;
   gap: 20px;
+  color: white;
   /* width: 50%; */
 }
 .content-left-footer p {
@@ -176,9 +177,9 @@ button a {
 }
 
 .right {
-  padding: 30px 100px;
+  padding: 30px 50px;
   position: relative;
-  background: url(images/bg.jpg);
+  background: url(image/image.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -214,6 +215,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
 }
 form .input-wrapper {
   display: flex;
